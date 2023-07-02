@@ -12,12 +12,14 @@ dynamic = ["version", "description"]
 requires-python = ">3.11"
 dependencies = [
 	"click >=8.1",
+        "trogon >=0.5",
 ]
 
 [project.optional-dependencies]
 dev = [
 	"black >=23.0",
 	"coverage >=7.2",
+        "flit >=3.9",
 	"mypy >=1.2",
 	"pip-chill >=1.0",
 	"pre-commit >=3.2",
